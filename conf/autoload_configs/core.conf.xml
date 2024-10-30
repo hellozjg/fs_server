@@ -1,0 +1,12 @@
+<configuration name="core.conf" description="Core Configuration">
+  
+  <settings>
+    <!-- Colorize the Console -->
+    <param name="colorize-console" value="true"/>
+    <param name="corename" value="fastcall"/> 
+    <param name="loglevel" value="debug"/>
+
+  </settings>
+
+</configuration>
+

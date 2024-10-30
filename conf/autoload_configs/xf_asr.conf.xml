@@ -1,0 +1,17 @@
+<configuration name="xf_asr.conf" description="www.fastcall.cn">
+  <settings>
+
+       <!--以下配置ASR参数，一般ASR与终端平台部署在一起，保留默认即可！-->
+      <param name="addr" value="wss://iat-api.xfyun.cn/v2/iat"/>
+      <param name="app_key" value="123"/> 
+	    <param name="access_key_id" value="234"/> 
+	    <param name="access_key_secret" value="345"/> 
+	    <param name="customization_id" value=""/>
+	    <param name="VocabularyId" value=""/> 
+	    <param name="language" value="zh_cn"/>
+	    <param name="domain" value="iat"/>
+	    <param name="accent" value="mandarin"/>
+	    <param name="result_space" value="0"/>
+  </settings>
+
+</configuration> 

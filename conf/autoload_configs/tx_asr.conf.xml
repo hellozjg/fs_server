@@ -1,0 +1,14 @@
+<configuration name="tx_asr.conf" description="www.fastcall.cn">
+  <settings>
+
+       <!--以下配置ASR参数，一般ASR与终端平台部署在一起，保留默认即可！-->
+      <param name="addr" value="ws://asr.cloud.tencent.com/asr/v2"/>
+      <param name="app_key" value="123"/> 
+	    <param name="access_key_id" value="234"/> 
+	    <param name="access_key_secret" value="345"/>
+	    <param name="customization_id" value=""/>
+	    <param name="VocabularyId" value=""/>  
+	    <param name="language" value="zh"/>    
+  </settings>
+
+</configuration> 

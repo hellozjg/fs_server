@@ -1,0 +1,12 @@
+<configuration name="demo_asr.conf" description="www.fastcall.cn">
+  <settings>
+
+       <!--以下配置ASR参数，一般ASR与终端平台部署在一起，保留默认即可！-->
+      <param name="addr" value="127.0.0.1"/>
+      <param name="app_key" value="default"/> 
+	    <param name="access_key_id" value=""/> 
+	    <param name="access_key_secret" value=""/> 
+	    <param name="result" value="好;不好;对;不对;哦;嗯"/>   
+  </settings>
+
+</configuration> 

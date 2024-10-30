@@ -1,0 +1,17 @@
+<configuration name="bb_tts.conf" description="www.fastcall.cn">
+  <settings>
+
+       <!--以下配置ASR参数，一般ASR与终端平台部署在一起，保留默认即可！-->
+      <param name="addr" value="wss://openapi.data-baker.com/tts/wsapi"/>
+      <param name="app_key" value="123"/> 
+	    <param name="access_key_id" value="234"/> 
+	    <param name="access_key_secret" value="345"/>  
+      <param name="voice_name" value="345"/> 
+      <param name="speed" value="0"/>  
+      <param name="volume" value="0"/>  
+	    <param name="pitch" value="0"/> 
+	    <param name="language" value="ZH"/>  
+	    <param name="domain" value="1"/>  
+  </settings>
+
+</configuration> 

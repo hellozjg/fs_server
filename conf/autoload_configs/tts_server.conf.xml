@@ -1,0 +1,17 @@
+<configuration name="tts_server.conf" description="www.fastcall.cn">
+      <settings>
+				<param name="listen-port" value="4452"/>
+                                                                <param name="recording-dir" value="/home/records"/>
+				<param name="record" value="0"/>
+			</settings>
+
+			<services> 
+			  <service id="1" module_name="ali_tts">
+				<params>
+					<param name="max_count" value="0"/>
+					<param name="next_id" value="0"/>
+				</params>
+			  </service>
+			</services>
+
+</configuration> 
